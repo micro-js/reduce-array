@@ -1,5 +1,5 @@
 
-# reduce
+# reduce-array
 
 [![Build status][travis-image]][travis-url]
 [![Git tag][git-image]][git-url]
