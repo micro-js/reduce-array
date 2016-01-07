@@ -2,7 +2,7 @@
   "name": "@f/reduce-array",
   "description": "Fast and functional array reduce implementation",
   "repository": "git://github.com/micro-js/reduce-array.git",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
