@@ -1,0 +1,15 @@
+{
+  "name": "@f/reduce",
+  "description": "Fast and functional reduce implementation",
+  "repository": "git://github.com/micro-js/reduce.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
