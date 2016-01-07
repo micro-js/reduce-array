@@ -2,7 +2,7 @@
  * Imports
  */
 
-var reduce = require('..')
+var reduceArray = require('..')
 var test = require('tape')
 
 /**
@@ -10,7 +10,7 @@ var test = require('tape')
  */
 
 test('should have initial value', function (t) {
-  var sum = reduce(
+  var sum = reduceArray(
     function (prev, curr) {
       return prev
     },
@@ -23,7 +23,7 @@ test('should have initial value', function (t) {
 })
 
 test('should accumulate values', function (t) {
-  var sum = reduce(
+  var sum = reduceArray(
     function (prev, curr) {
       return prev + curr
     },
